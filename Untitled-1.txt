@@ -1,0 +1,99 @@
+
+------------------ employees DTD -----------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE employees SYSTEM "employees.dtd">
+<employees>
+  <employee>
+    <employee_id>1</employee_id>
+    <first_name>Aryan</first_name>
+    <last_name>Sharma</last_name>
+    <email>aryan@gmail.com</email>
+    <phone_number>9960765259</phone_number>
+    <hire_date>2023-06-26</hire_date>
+    <job_id>DEVELOPER</job_id>
+    <salary>90000</salary>
+    <commission_pct>0.1</commission_pct>
+    <manager_id>2</manager_id>
+    <department_id>1</department_id>
+  </employee>
+</employees>
+
+----------------------Countries DTD --------------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE countries SYSTEM "countries.dtd">
+<countries>
+  <Countries>
+  <country_ID>1</country_ID>
+  <Country_Name>USA</Country_Name>
+  <Region_ID>101</Region_ID>
+  </Countries>
+</countries>
+
+---------------------Departments DTD-------------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE department SYSTEM "department.dtd">
+<departments>
+  <department>
+  <Department_ID>161</Department_ID>
+  <Department_Name>system Analysis</Department_Name>
+  <Manager_ID>210</Manager_ID>
+  <Location_ID>12</Location_ID>
+  </department>
+</departments>
+
+-----------------Jobs DTD-----------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE jobs SYSTEM "jobs.dtd">
+<jobs>
+  <job>
+  <Job_ID>40</Job_ID>
+  <Job_Title>Jr.system Analysis</Job_Title>
+  <Min_Salary>50000</Min_Salary>
+  <Max_Salary>1000000</Max_Salary>
+  </job>
+</jobs>
+
+-----------------JOB_History DTD------------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE job_history SYSTEM "job_history.dtd">
+<job_historys>
+  <job_history>
+  <Employee_ID>1</Employee_ID>
+  <Start_date>2022-06-26</Start_date>
+  <End_date>2023-12-31</End_date>
+  <job_id>40</job_id>
+  </job_history>
+</job_historys>
+
+--------------------Locations DTD---------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE locations SYSTEM "locations.dtd">
+<locations>
+  <location>
+  <Location_ID>12</Location_ID>
+  <STREET_ADDRESS>Thane</STREET_ADDRESS>
+  <POSTAL_CODE>421503</POSTAL_CODE>
+  <CITY>Thane</CITY>
+  <STATE_PROVINCE>MH</STATE_PROVINCE>
+  <COUNTRY_ID>+91</COUNTRY_ID>
+  </location>
+</locations>
+
+---------------------REGIONS DTD -------------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE regions SYSTEM "regions.dtd">
+<regions>
+  <region>
+  <Region_ID>101</Region_ID>
+  <Region_Name>Asia</Region_Name>
+  </region>
+</regions>
+
+----------------------------------------------------------

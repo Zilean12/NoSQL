@@ -1,0 +1,96 @@
+Hr schema
+
+1)COUNTRIES
+2)DEPARTMENTS
+3)EMPLOYEES
+4)JOBS
+5)JOB_HISTORY
+6)LOCATIONS
+7)REGIONS
+
+
+--------Emeplyee DTD -----------
+
+<!DOCTYPE Employees [
+  <!ELEMENT EmployeesTable (Employee+)>
+  <!ELEMENT Employee (EmployeeID, FirstName, LastName, Email, PhoneNo, hireDate, Job_ID,  Salary, commissionpct, manager_id, Department_ID)>
+
+  <!ELEMENT EmployeeID (#PCDATA)>
+  <!ELEMENT FirstName (#PCDATA)>
+  <!ELEMENT LastName (#PCDATA)>
+  <!ELEMENT Email (#PCDATA)>
+  <!ELEMENT PhoneNo (#PCDATA)>
+  <!ELEMENT HireDate (#PCDATA)>
+  <!ELEMENT Job_ID (#PCDATA)>
+  <!ELEMENT Salary (#PCDATA)>
+  <!ELEMENT commission_pct (#PCDATA)>
+  <!ELEMENT manager_id (#PCDATA)>
+  <!ELEMENT Department_ID (#PCDATA)>
+
+]>
+
+----------Countries DTD -------------
+
+<!DOCTYPE COUNTRIES  [
+<!ELEMENT COUNTRIESTable (COUNTRIES++)>
+<!ELEMENT COUNTRIES (Country_ID, Country_Name, Region_ID)>
+<!ELEMENT Country_ID (#PCDATA)>
+<!ELEMENT Country_Name (#PCDATA)>
+<!ELEMENT Region_ID (#PCDATA)>
+]>
+
+--------------Departments DTD-----------------
+
+<!DOCTYPE DEPARTMENT [
+<!ELEMENT DEPARTMENTSTable (DEPARTMENTS++)>
+<!ELEMENT DEPARTMENTS (Department_ID, Department_Name, manager_id, Location_ID)>
+<!ELEMENT Department_ID (#PCDATA)>
+<!ELEMENT Department_Name (#PCDATA)>
+<!ELEMENT Manager_ID (#PCDATA)>
+<!ELEMENT Location_ID (#PCDATA)>
+]>
+
+-----------------Jobs DTD-----------------------
+
+<!DOCTYPE JOBS [
+<!ELEMENT JOBSTable (JOBS++)>
+<!ELEMENT jobs (Job_ID, Job_Title, Min_Salary, Max_Salary)>
+<!ELEMENT Job_ID (#PCDATA)>
+<!ELEMENT Job_Title (#PCDATA)>
+<!ELEMENT Min_Salary (#PCDATA)>
+<!ELEMENT Max_Salary (#PCDATA)>
+]>
+
+-----------------JOB_History DTD------------------------
+
+<!DOCTYPE JOB_HISTORY  [
+<!ELEMENT JOB_HISTORYTable (JOB_HISTORY++)
+<!ELEMENT JOB_HISTORY(Employee_ID, Start_date, End_date, job_id)>
+<!ELEMENT Employee_ID (#PCDATA) >
+<!ELEMENT Start_date (#PCDATA) >
+<!ELEMENT End_date (#PCDATA) >
+<!ELEMENT job_id (#PCDATA) >
+]>
+
+--------------------Locations DTD---------------------
+<!DOCTYPE LOCATIONS [
+<!ELEMENT LocationTable (Location++)
+<!ELEMENT Location (Location_ID, STREET_ADDRESS,  POSTAL_CODE , CITY , STATE_PROVINCE, COUNTRY_ID)>
+<!ELEMENT Location_ID (#PCDATA)>
+<!ELEMENT STREET_ADDRESS (#PCDATA)>
+<!ELEMENT POSTAL_CODE (#PCDATA)>
+<!ELEMENT CITY (#PCDATA)>
+<!ELEMENT STATE_PROVINCE (#PCDATA)>
+<!ELEMENT COUNTRY_ID (#PCDATA)>
+]>
+
+---------------------REGIONS DTD -------------------------
+<!DOCTYPE Region [
+<!ELEMENT REGIONSTable (Region++)
+<!ELEMENT Region (Region_ID, Region_Name)>
+<!ELEMENT Region_ID (#PCDATA)>
+<!ELEMENT Region_Name (#PCDATA)>
+]>
+
+-------------------------------------------------------------------
+

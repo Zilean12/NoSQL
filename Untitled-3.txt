@@ -1,0 +1,276 @@
+
+------------------ employees DTD -----------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE employees SYSTEM "employees.dtd">
+<employees>
+  <employee>
+    <employee_id>1</employee_id>
+    <first_name>Aryan</first_name>
+    <last_name>Sharma</last_name>
+    <email>aryan@gmail.com</email>
+    <phone_number>9960765259</phone_number>
+    <hire_date>2022-06-26</hire_date>
+    <job_id>system Analysis</job_id>
+    <salary>90000</salary>
+    <commission_pct>0.1</commission_pct>
+    <manager_id>210</manager_id>
+    <department_id>161</department_id>
+  </employee>
+  <employee>
+    <employee_id>2</employee_id>
+    <first_name>Preksha</first_name>
+    <last_name>Sharma</last_name>
+    <email>Preksha.Sharma@gmail.com</email>
+    <phone_number>7774885259</phone_number>
+    <hire_date>2023-06-26</hire_date>
+    <job_id>DEVELOPER</job_id>
+    <salary>25000</salary>
+    <commission_pct>0.1</commission_pct>
+    <manager_id>211</manager_id>
+    <department_id>162</department_id>
+  </employee>
+  <employee>
+    <employee_id>3</employee_id>
+    <first_name>Prachi</first_name>
+    <last_name>Verma</last_name>
+    <email>prachi.21@gmail.com</email>
+    <phone_number>94374637280</phone_number>
+    <hire_date>2022-06-26</hire_date>
+    <job_id>system Analysis</job_id>
+    <salary>35000</salary>
+    <commission_pct>0.1</commission_pct>
+    <manager_id>210</manager_id>
+    <department_id>161</department_id>
+  </employee>
+  <employee>
+    <employee_id>4</employee_id>
+    <first_name>Raja</first_name>
+    <last_name>pandey</last_name>
+    <email>RajaPandey@gmail.com</email>
+    <phone_number>9326627281</phone_number>
+    <hire_date>2023-05-29</hire_date>
+    <job_id>Data Analysis</job_id>
+    <salary>25000</salary>
+    <commission_pct>0.1</commission_pct>
+    <manager_id>212</manager_id>
+    <department_id>160</department_id>
+  </employee>
+  <employee>
+    <employee_id>5</employee_id>
+    <first_name>Ranjeev</first_name>
+    <last_name>Singh</last_name>
+    <email>Preksha.Sharma@gmail.com</email>
+    <phone_number>7774885259</phone_number>
+    <hire_date>202-06-26</hire_date>
+    <job_id>DEVELOPER</job_id>
+    <salary>25000</salary>
+    <commission_pct>0.1</commission_pct>
+    <manager_id>211</manager_id>
+    <department_id>162</department_id>
+  </employee>
+</employees>
+
+----------------------Countries DTD --------------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE countries SYSTEM "countries.dtd">
+<countries>
+  <Countries>
+  <country_ID>1</country_ID>
+  <Country_Name>India</Country_Name>
+  <Region_ID>101</Region_ID>
+  </Countries>
+  <Countries>
+    <country_ID>2</country_ID>
+    <Country_Name>USA</Country_Name>
+    <Region_ID>102</Region_ID>
+  </Countries>
+  <Countries>
+    <country_ID>1</country_ID>
+    <Country_Name>India</Country_Name>
+    <Region_ID>101</Region_ID>
+  </Countries>
+  <Countries>
+    <country_ID>2</country_ID>
+    <Country_Name>USA</Country_Name>
+    <Region_ID>102</Region_ID>
+  </Countries>
+  <Countries>
+    <country_ID>3</country_ID>
+    <Country_Name>China</Country_Name>
+    <Region_ID>103</Region_ID>
+  </Countries>
+</countries>
+
+---------------------Departments DTD-------------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE department SYSTEM "department.dtd">
+<departments>
+  <department>
+  <Department_ID>161</Department_ID>
+  <Department_Name>system Analysis</Department_Name>
+  <Manager_ID>210</Manager_ID>
+  <Location_ID>12</Location_ID>
+  </department>
+  <department>
+    <Department_ID>162</Department_ID>
+    <Department_Name>DEVELOPER</Department_Name>
+    <Manager_ID>211</Manager_ID>
+    <Location_ID>10</Location_ID>
+  </department>
+  <department>
+    <Department_ID>161</Department_ID>
+    <Department_Name>system Analysis</Department_Name>
+    <Manager_ID>210</Manager_ID>
+    <Location_ID>12</Location_ID>
+  </department>
+  <department>
+    <Department_ID>160</Department_ID>
+    <Department_Name>Data Analysis</Department_Name>
+    <Manager_ID>212</Manager_ID>
+    <Location_ID>11</Location_ID>
+  </department>
+  <department>
+    <Department_ID>162</Department_ID>
+    <Department_Name>DEVELOPER</Department_Name>
+    <Manager_ID>211</Manager_ID>
+    <Location_ID>10</Location_ID>
+  </department>
+</departments>
+
+
+-----------------Jobs DTD-----------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE jobs SYSTEM "jobs.dtd">
+<jobs>
+  <job>
+    <Job_ID>40</Job_ID>
+    <Job_Title>Jr.system Analysis</Job_Title>
+    <Min_Salary>50000</Min_Salary>
+    <Max_Salary>1000000</Max_Salary>
+  </job>
+  <job>
+    <Job_ID>40</Job_ID>
+    <Job_Title>Jr.DEVELOPER</Job_Title>
+    <Min_Salary>50000</Min_Salary>
+    <Max_Salary>1000000</Max_Salary>
+    </job>
+  <job>
+    <Job_ID>40</Job_ID>
+    <Job_Title>Jr.system Analysis</Job_Title>
+    <Min_Salary>50000</Min_Salary>
+    <Max_Salary>1000000</Max_Salary>
+  </job>
+  <job>
+    <Job_ID>40</Job_ID>
+    <Job_Title>Sr. Data Analysis</Job_Title>
+    <Min_Salary>50000</Min_Salary>
+    <Max_Salary>1000000</Max_Salary>
+    </job>
+  <job>
+      <Job_ID>40</Job_ID>
+      <Job_Title>Jr. DEVELOPER</Job_Title>
+      <Min_Salary>50000</Min_Salary>
+      <Max_Salary>1000000</Max_Salary>
+    </job>
+</jobs>
+
+-----------------JOB_History DTD------------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE job_history SYSTEM "job_history.dtd">
+<job_historys>
+  <job_history>
+    <Employee_ID>1</Employee_ID>
+    <Start_date>2022-06-26</Start_date>
+    <End_date>2023-12-31</End_date>
+    <job_id>40</job_id>
+  </job_history>
+  <job_history>
+    <Employee_ID>2</Employee_ID>
+    <Start_date>2020-06-26</Start_date>
+    <End_date>2023-12-31</End_date>
+    <job_id>40</job_id>
+  </job_history>
+  <job_history>
+    <Employee_ID>3</Employee_ID>
+    <Start_date>2022-06-26</Start_date>
+    <End_date>2023-12-31</End_date>
+    <job_id>40</job_id>
+  </job_history>
+  <job_history>
+    <Employee_ID>4</Employee_ID>
+    <Start_date>2021-04-20</Start_date>
+    <End_date>2023-12-31</End_date>
+    <job_id>40</job_id>
+  </job_history>
+  <job_history>
+    <Employee_ID>5</Employee_ID>
+    <Start_date>2020-06-26</Start_date>
+    <End_date>2023-12-31</End_date>
+    <job_id>40</job_id>
+  </job_history>
+</job_historys>
+
+--------------------Locations DTD---------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE locations SYSTEM "locations.dtd">
+<locations>
+  <location>
+    <Location_ID>12</Location_ID>
+    <STREET_ADDRESS>Thane</STREET_ADDRESS>
+    <POSTAL_CODE>421503</POSTAL_CODE>
+    <CITY>Thane</CITY>
+    <STATE_PROVINCE>MH</STATE_PROVINCE>
+    <COUNTRY_ID>+91</COUNTRY_ID>
+  </location>
+  <location>
+    <Location_ID>10</Location_ID>
+    <STREET_ADDRESS>Pune</STREET_ADDRESS>
+    <POSTAL_CODE>412208</POSTAL_CODE>
+    <CITY>Pune</CITY>
+    <STATE_PROVINCE>MH</STATE_PROVINCE>
+    <COUNTRY_ID>+91</COUNTRY_ID>
+  </location>
+  <location>
+    <Location_ID>12</Location_ID>
+    <STREET_ADDRESS>Thane</STREET_ADDRESS>
+    <POSTAL_CODE>421503</POSTAL_CODE>
+    <CITY>Thane</CITY>
+    <STATE_PROVINCE>MH</STATE_PROVINCE>
+    <COUNTRY_ID>+91</COUNTRY_ID>
+  </location>
+  <location>
+    <Location_ID>11</Location_ID>
+    <STREET_ADDRESS>Delhi</STREET_ADDRESS>
+    <POSTAL_CODE>110034</POSTAL_CODE>
+    <CITY>Thane</CITY>
+    <STATE_PROVINCE>MH</STATE_PROVINCE>
+    <COUNTRY_ID>+91</COUNTRY_ID>
+  </location>
+  <location>
+    <Location_ID>10</Location_ID>
+    <STREET_ADDRESS>Pune</STREET_ADDRESS>
+    <POSTAL_CODE>421503</POSTAL_CODE>
+    <CITY>Thane</CITY>
+    <STATE_PROVINCE>MH</STATE_PROVINCE>
+    <COUNTRY_ID>+91</COUNTRY_ID>
+  </location>
+</locations>
+
+---------------------REGIONS DTD -------------------------
+
+<?xml version="1.0"?>
+<!DOCTYPE regions SYSTEM "regions.dtd">
+<regions>
+  <region>
+  <Region_ID>101</Region_ID>
+  <Region_Name>Asia</Region_Name>
+  </region>
+</regions>
+
+----------------------------------------------------------
